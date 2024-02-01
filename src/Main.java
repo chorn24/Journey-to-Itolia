@@ -167,7 +167,11 @@ public class Main {
                             print("Drink: " + SupplyType.food);
                             print("Gold: " + SupplyType.gold);
                         }
-                        case "quit" -> print("Quitting...");
+                        case "quit" -> {
+                            print("Quitting...");
+                            quit = true;
+                            Market = false;
+                        }
                         case "buy" -> {
                             int RandomName = rand.nextInt(25);
                             print(Names.Name[RandomName] + " the merchant says:");
