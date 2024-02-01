@@ -1,0 +1,3 @@
+public class Character_names {
+    String[] Name = {"Alvin Alero","Barry Barris","Charlie Cart","Daniel Derryl","Esmerelda Evon","Fredrick Fontella","Gertrude Garly","Harley Harris","Iswaldo Icarus","John Jerry","Kaitlyn Karsil","Lucaria Lunis","Margeret Martha","Nitum Narcosis","Oliver Olivia","Perry Platypus","Quinn Qarin","Rachel Ricaro","Starley Stinn","Telvin Tingus","Usuper Upine","Vinograd Vinyl","Waluigi Wins","Xyler Xanyth","Yarl Yon","Zamantha Zylon"};
+}
