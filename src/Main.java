@@ -47,6 +47,7 @@ public class Main {
         SupplyType.gold = 100;
         boolean Market = false;
         boolean Itolia = false;
+        boolean quit = false;
         while (!Directive.equals("quit") || !Current_Location.equals("Itolia")) {
             if (SupplyType.drink > 0) {
                 if (SupplyType.gold < 0) {
@@ -64,7 +65,9 @@ public class Main {
                                     String Direction = TravelQuestion(ID);
                                     if (Direction.equals("admin")) {
                                         String AL;
-                                        print("Set the ID");
+                                        SupplyType.drink = 10000;
+                                        SupplyType.food = 10000;
+                                        print("Set the location");
                                         AL = input();
                                         Current_Location = AL;
                                     } else if (Direction.equals("grove path")) {
@@ -78,7 +81,9 @@ public class Main {
                                     String Direction = TravelQuestion(ID);
                                     if (Direction.equals("admin")) {
                                         String AL;
-                                        print("Set the ID");
+                                        SupplyType.drink = 10000;
+                                        SupplyType.food = 10000;
+                                        print("Set the location");
                                         AL = input();
                                         Current_Location = AL;
                                     } else if (Direction.equals("desert path")) {
@@ -97,7 +102,9 @@ public class Main {
                                     String Direction = TravelQuestion(ID);
                                     if (Direction.equals("admin")) {
                                         String AL;
-                                        print("Set the ID");
+                                        SupplyType.drink = 10000;
+                                        SupplyType.food = 10000;
+                                        print("Set the location");
                                         AL = input();
                                         Current_Location = AL;
                                     } else if (Direction.equals("snowy path")) {
@@ -197,6 +204,10 @@ public class Main {
 
                 }
 
+                else if (quit) {
+                    break;
+                }
+
                 else {
                     int Supply_Use = rand.nextInt(10);
                     int Supply_Use_Medium = Medium.nextInt(25);
@@ -225,6 +236,8 @@ public class Main {
                                     String Direction = TravelQuestion(ID);
                                     if (Direction.equals("admin")) {
                                         String AL;
+                                        SupplyType.drink = 10000;
+                                        SupplyType.food = 10000;
                                         print("Set the location");
                                         AL = input();
                                         Current_Location = AL;
@@ -244,7 +257,9 @@ public class Main {
                                     switch (Direction) {
                                         case "admin" -> {
                                             String AL;
-                                            print("Set the ID");
+                                            SupplyType.drink = 10000;
+                                            SupplyType.food = 10000;
+                                            print("Set the location");
                                             AL = input();
                                             Current_Location = AL;
                                         }
@@ -265,7 +280,9 @@ public class Main {
                                     switch (Direction) {
                                         case "admin" -> {
                                             String AL;
-                                            print("Set the ID");
+                                            SupplyType.drink = 10000;
+                                            SupplyType.food = 10000;
+                                            print("Set the location");
                                             AL = input();
                                             Current_Location = AL;
                                         }
@@ -289,7 +306,9 @@ public class Main {
                                     switch (Direction) {
                                         case "admin" -> {
                                             String AL;
-                                            print("Set the ID");
+                                            SupplyType.drink = 10000;
+                                            SupplyType.food = 10000;
+                                            print("Set the location");
                                             AL = input();
                                             Current_Location = AL;
                                         }
@@ -314,7 +333,9 @@ public class Main {
                                     switch (Direction) {
                                         case "admin" -> {
                                             String AL;
-                                            print("Set the ID");
+                                            SupplyType.drink = 10000;
+                                            SupplyType.food = 10000;
+                                            print("Set the location");
                                             AL = input();
                                             Current_Location = AL;
                                         }
@@ -339,7 +360,9 @@ public class Main {
                                     switch (Direction) {
                                         case "admin" -> {
                                             String AL;
-                                            print("Set the ID");
+                                            SupplyType.drink = 10000;
+                                            SupplyType.food = 10000;
+                                            print("Set the location");
                                             AL = input();
                                             Current_Location = AL;
                                         }
@@ -363,7 +386,9 @@ public class Main {
                                     switch (Direction) {
                                         case "admin" -> {
                                             String AL;
-                                            print("Set the ID");
+                                            SupplyType.drink = 10000;
+                                            SupplyType.food = 10000;
+                                            print("Set the location");
                                             AL = input();
                                             Current_Location = AL;
                                         }
@@ -387,7 +412,9 @@ public class Main {
                                     switch (Direction) {
                                         case "admin" -> {
                                             String AL;
-                                            print("Set the ID");
+                                            SupplyType.drink = 10000;
+                                            SupplyType.food = 10000;
+                                            print("Set the location");
                                             AL = input();
                                             Current_Location = AL;
                                         }
@@ -410,7 +437,9 @@ public class Main {
                                     String Direction = TravelQuestion(ID);
                                     if (Direction.equals("admin")) {
                                         String AL;
-                                        print("Set the ID");
+                                        SupplyType.drink = 10000;
+                                        SupplyType.food = 10000;
+                                        print("Set the location");
                                         AL = input();
                                         Current_Location = AL;
                                     }
@@ -424,7 +453,9 @@ public class Main {
                                     switch (Direction) {
                                         case "admin" -> {
                                             String AL;
-                                            print("Set the ID");
+                                            SupplyType.drink = 10000;
+                                            SupplyType.food = 10000;
+                                            print("Set the location");
                                             AL = input();
                                             Current_Location = AL;
                                         }
@@ -449,7 +480,9 @@ public class Main {
                                     switch (Direction) {
                                         case "admin" -> {
                                             String AL;
-                                            print("Set the ID");
+                                            SupplyType.drink = 10000;
+                                            SupplyType.food = 10000;
+                                            print("Set the location");
                                             AL = input();
                                             Current_Location = AL;
                                         }
@@ -473,7 +506,9 @@ public class Main {
                                     switch (Direction) {
                                         case "admin" -> {
                                             String AL;
-                                            print("Set the ID");
+                                            SupplyType.drink = 10000;
+                                            SupplyType.food = 10000;
+                                            print("Set the location");
                                             AL = input();
                                             Current_Location = AL;
                                         }
@@ -497,7 +532,9 @@ public class Main {
                                     switch (Direction) {
                                         case "admin" -> {
                                             String AL;
-                                            print("Set the ID");
+                                            SupplyType.drink = 10000;
+                                            SupplyType.food = 10000;
+                                            print("Set the location");
                                             AL = input();
                                             Current_Location = AL;
                                         }
@@ -521,7 +558,9 @@ public class Main {
                                     switch (Direction) {
                                         case "admin" -> {
                                             String AL;
-                                            print("Set the ID");
+                                            SupplyType.drink = 10000;
+                                            SupplyType.food = 10000;
+                                            print("Set the location");
                                             AL = input();
                                             Current_Location = AL;
                                         }
@@ -545,7 +584,9 @@ public class Main {
                                     switch (Direction) {
                                         case "admin" -> {
                                             String AL;
-                                            print("Set the ID");
+                                            SupplyType.drink = 10000;
+                                            SupplyType.food = 10000;
+                                            print("Set the location");
                                             AL = input();
                                             Current_Location = AL;
                                         }
@@ -570,7 +611,9 @@ public class Main {
                                     switch (Direction) {
                                         case "admin" -> {
                                             String AL;
-                                            print("Set the ID");
+                                            SupplyType.drink = 10000;
+                                            SupplyType.food = 10000;
+                                            print("Set the location");
                                             AL = input();
                                             Current_Location = AL;
                                         }
@@ -593,7 +636,9 @@ public class Main {
                                     switch (Direction) {
                                         case "admin" -> {
                                             String AL;
-                                            print("Set the ID");
+                                            SupplyType.drink = 10000;
+                                            SupplyType.food = 10000;
+                                            print("Set the location");
                                             AL = input();
                                             Current_Location = AL;
                                         }
@@ -618,7 +663,9 @@ public class Main {
                                     switch (Direction) {
                                         case "admin" -> {
                                             String AL;
-                                            print("Set the ID");
+                                            SupplyType.drink = 10000;
+                                            SupplyType.food = 10000;
+                                            print("Set the location");
                                             AL = input();
                                             Current_Location = AL;
                                         }
@@ -642,7 +689,9 @@ public class Main {
                                     switch (Direction) {
                                         case "admin" -> {
                                             String AL;
-                                            print("Set the ID");
+                                            SupplyType.drink = 10000;
+                                            SupplyType.food = 10000;
+                                            print("Set the location");
                                             AL = input();
                                             Current_Location = AL;
                                         }
@@ -666,7 +715,9 @@ public class Main {
                                     switch (Direction) {
                                         case "admin" -> {
                                             String AL;
-                                            print("Set the ID");
+                                            SupplyType.drink = 10000;
+                                            SupplyType.food = 10000;
+                                            print("Set the location");
                                             AL = input();
                                             Current_Location = AL;
                                         }
@@ -741,6 +792,7 @@ public class Main {
                         }
                         case "quit" -> {
                             print("Quitting...");
+                            quit = true;
                         }
 
                         default -> print("Not a valid option");
@@ -751,6 +803,7 @@ public class Main {
                 print("You check your supplies, only to find you have no more. Unfortunately you couldnt make it anywhere else..");
                 print("GAME OVER");
                 Directive = "quit";
+                break;
             }
         }
     }
